@@ -1,0 +1,222 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Soft light background */
+    color: #333333; /* Gentle text contrast */
+    line-height: 1.6;
+    background-image: radial-gradient(#8174d5,#9fcef8,#e3f2fd);
+}
+
+header {
+    background-color: #4a91e2c8; /* Soft blue for header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: #ffffff; /* White text on header */
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-bar li a:hover {
+    background-color: #357ab7; /* Slightly darker blue */
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.section-intro {
+    background-color: #e3f2fd; /* Very light blue */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.section-intro h1 {
+    font-size: 2rem;
+    color: #2c3e50; /* Dark grayish-blue */
+}
+
+.section-intro p {
+    font-size: 1.2rem;
+}
+
+.section-streaming, .section-tours, .section-profile, .section-testimonials {
+    background-color: #ffffff; /* Clean white sections */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #34495e; /* Soft dark blue */
+    margin-bottom: 15px;
+}
+
+.music-player audio {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.tour-list {
+    list-style: none;
+    padding: 0;
+}
+
+.tour-list li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ab7;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #f7f7f7; /* Light gray */
+    padding: 15px;
+    border-left: 5px solid #4a90e2;
+    margin: 10px 0;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    color: #7f8c8d; /* Muted gray */
+    font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    margin-top: 20px;
+    position: fixed;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#artists {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.artist {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#artists {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.artist {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(#8174d5,#78b2f3 );
+}
+
+.artistpic{
+    width: 125px;
+    float: right;
+    border-radius: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+.division {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.division:hover {
+    background-color: #f0f0fc; /* Light purple tint */
+    transform: scale(1.02);
+}
+
+.division h2 {
+    color: #6a5acd;
+    margin-bottom: 0.5rem;
+}
+
+.division p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.rating {
+    color: #ffcc00; /* Gold for star rating */
+    font-size: 1.2rem;
+}
